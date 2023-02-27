@@ -1,24 +1,12 @@
-import { useState } from "react";
+import React from 'react'
+import Counter from './component/Counter'
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
-    <div className="App">
-      <div>
-        <h1>Count: {count}</h1>
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Increment
-        </button>
-        <button onClick={() => setCount((count) => count - 1)}>
-          Decrement
-        </button>
-        <button onClick={() => setCount(0)}>Reset</button>
-      </div>
+    <div>
+      <Counter />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
