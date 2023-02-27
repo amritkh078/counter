@@ -19,7 +19,6 @@ const Counter = () => {
           type="checkbox"
           role="switch"
           id="flexSwitchCheckChecked"
-          checked
           onClick={myFunction}
         />
       </div>
