@@ -34,7 +34,7 @@ const Counter = () => {
         >
           Decrement
         </button>&nbsp;&nbsp;&nbsp;
-        <button type="button" className="btn btn-dark" onClick={handleReset}>
+        <button type="button" className="btn btn-info" onClick={handleReset}>
           Reset
         </button>
       </div>
